@@ -1,0 +1,67 @@
+export const skillCategories = [
+  {
+    id: "security",
+    title: "Cybersecurity",
+    icon: "Shield",
+    description: "Protecting systems and analyzing security threats.",
+    skills: [
+      "Wazuh SIEM",
+      "IDS / IPS",
+      "Network Security",
+      "Log Analysis",
+      "Cryptography",
+      "File Integrity Monitoring",
+    ],
+  },
+  {
+    id: "network",
+    title: "Networking",
+    icon: "Network",
+    description: "Designing and configuring network infrastructures.",
+    skills: [
+      "TCP/IP",
+      "Routing & Switching",
+      "VLAN",
+      "DNS",
+      "DHCP",
+      "Cisco Packet Tracer",
+      "GNS3",
+    ],
+  },
+  {
+    id: "systems",
+    title: "Systems",
+    icon: "Terminal",
+    description: "Linux and Windows system administration.",
+    skills: [
+      "Ubuntu Linux",
+      "Kali Linux",
+      "Windows Server",
+      "System Administration",
+      "Apache Web Server",
+    ],
+  },
+  {
+    id: "cloud",
+    title: "Cloud & Virtualization",
+    icon: "Cloud",
+    description: "Building and exploring virtualized environments.",
+    skills: [
+      "Cloud Computing",
+      "VirtualBox",
+      "VMware",
+    ],
+  },
+  {
+    id: "programming",
+    title: "Programming",
+    icon: "Code",
+    description: "Developing tools and web applications.",
+    skills: [
+      "Python",
+      "PHP",
+      "SQL",
+      "JavaScript",
+    ],
+  },
+];

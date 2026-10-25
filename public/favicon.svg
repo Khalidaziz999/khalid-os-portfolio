@@ -1,0 +1,50 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="64"
+  height="64"
+  viewBox="0 0 64 64"
+  fill="none"
+>
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="64" y2="64">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <linearGradient id="letter" x1="12" y1="12" x2="52" y2="52">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.5" stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect
+    x="2"
+    y="2"
+    width="60"
+    height="60"
+    rx="16"
+    fill="#050816"
+    stroke="url(#border)"
+    stroke-width="2"
+  />
+
+  <!-- K Letter -->
+  <path
+    d="M19 14V50M21 33L44 14M21 33L45 50"
+    stroke="url(#letter)"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Online Status -->
+  <circle
+    cx="51"
+    cy="51"
+    r="5"
+    fill="#00FF94"
+  />
+</svg>
