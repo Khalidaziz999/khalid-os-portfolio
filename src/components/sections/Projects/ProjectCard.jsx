@@ -6,7 +6,11 @@ import {
   Code2,
 } from "lucide-react";
 
-export default function ProjectCard({ project, index }) {
+export default function ProjectCard({
+  project,
+  index,
+  onExplore,
+}) {
   return (
     <>
       <motion.article
@@ -82,13 +86,15 @@ export default function ProjectCard({ project, index }) {
           {/* Project Actions */}
           <div className="flex flex-wrap items-center gap-5 border-t border-white/10 pt-6">
 
-            <a
-              href={`#project-${project.id}`}
+            <button
+              type="button"
+              onClick={() => onExplore(project)}
+              aria-label={`Explore ${project.title} project`}
               className="inline-flex items-center gap-2 font-semibold text-cyan-400 transition hover:gap-3"
             >
               Explore Project
-              <ArrowUpRight size={18} />
-            </a>
+              <ArrowUpRight size={18} aria-hidden="true" />
+            </button>
 
             {/* GitHub */}
             {project.github && (
