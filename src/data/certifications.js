@@ -55,8 +55,6 @@ export const certifications = [
     issuer: "Lycée Qualifiant Moulay Ismaïl",
     category: "diploma",
     field: "Academic Diploma",
-    image: "/images/certificates/baccalaureat.png",
-    thumbnail: "/images/certificates/thumbs/baccalaureat.webp",
   },
   {
     id: "dut",
@@ -64,7 +62,5 @@ export const certifications = [
     issuer: "EST Kelaâ des Sraghna",
     category: "diploma",
     field: "Networks, Cybersecurity & AI",
-    image: "/images/certificates/dut.png",
-    thumbnail: "/images/certificates/thumbs/dut.webp",
   },
 ];

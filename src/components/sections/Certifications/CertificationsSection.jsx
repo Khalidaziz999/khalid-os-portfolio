@@ -95,7 +95,11 @@ export default function CertificationsSection() {
               <CertificationCard
                 key={certification.id}
                 certification={certification}
-                onSelect={() => setSelectedCertificate(certification)}
+                onSelect={() => {
+                  if (certification.category !== "diploma") {
+                    setSelectedCertificate(certification);
+                  }
+                }}
               />
             ))}
           </AnimatePresence>
